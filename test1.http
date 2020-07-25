@@ -1,0 +1,22 @@
+GET http://localhost:8080/test2?birth=1999/10/17
+
+
+###
+POST  http://localhost:8080/test2
+Content-Type: application/json
+
+{"birth":"1999-10-17"}
+###
+POST http://localhost:8080/test2
+Content-Type: application/json
+
+{"birth":"1999-10-17"}
+
+###
+
+POST http://localhost:8080/persons
+Content-Type: application/json
+
+{}
+
+###
